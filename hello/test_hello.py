@@ -3,7 +3,6 @@ import unittest
 
 from hello import hello
 
-
 class TestHello(unittest.TestCase):
     """sample test"""
 
@@ -14,3 +13,6 @@ class TestHello(unittest.TestCase):
     def test_world_unicode(self):
         """sample test with unicode"""
         self.assertEqual(hello(u'world'), u'hello world')
+
+    def test_fail(self):
+        self.fail("I failed")
