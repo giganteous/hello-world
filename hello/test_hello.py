@@ -15,16 +15,5 @@ class TestHello(unittest.TestCase):
         self.assertEqual(hello(u'world'), u'hello world')
 
     def test_fail1(self):
-        self.skipTest("Instant misery1!")
+        self.fail("Instant misery1!")
 
-    def test_fail2(self):
-        self.skipTest("Instant misery2!")
-
-    def test_fail3(self):
-        self.skipTest("Instant misery3!")
-
-    def test_fail4(self):
-        self.skipTest("Instant misery4!")
-
-    def test_fail5(self):
-        self.skipTest("Instant misery5!")
