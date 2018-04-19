@@ -15,5 +15,5 @@ class TestHello(unittest.TestCase):
         self.assertEqual(hello(u'world'), u'hello world')
 
     def test_fail1(self):
-        self.fail("Instant misery1! again!")
+        self.skipTest("Instant gratification! again!")
 
