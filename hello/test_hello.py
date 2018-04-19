@@ -18,3 +18,6 @@ class TestHello(unittest.TestCase):
         """ really. work now please"""
         self.assertEqual(1, 1)
 
+    def test_fail(self):
+        self.fail("fail")
+
