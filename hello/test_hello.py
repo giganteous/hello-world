@@ -15,5 +15,6 @@ class TestHello(unittest.TestCase):
         self.assertEqual(hello(u'world'), u'hello world')
 
     def test_success(self):
+        """ really. work now please"""
         self.assertEqual(1, 1)
 
